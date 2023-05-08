@@ -1,5 +1,6 @@
 # ToxiScan
 ToxiScan is an advanced text analysis tool designed to detect toxicity in textual data. By leveraging the power of Natural Language Toolkit (NLTK), TfidfVectorizer, and the Naive Bayes classifier, ToxiScan provides accurate predictions on whether a given text is toxic or non-toxic. With its simple user interface built using Streamlit, ToxiScan makes toxicity analysis easily accessible to users.
+
 ![imgonline-com-ua-twotoone-vzmYnnxxlrjvC](https://user-images.githubusercontent.com/90026724/236762042-ec1b2801-3718-4825-8ab5-413c4e82039c.jpg)
 
 ## Key Features
