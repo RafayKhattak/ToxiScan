@@ -3,10 +3,10 @@ ToxiScan is an advanced text analysis tool designed to detect toxicity in textua
 ![imgonline-com-ua-twotoone-vzmYnnxxlrjvC](https://user-images.githubusercontent.com/90026724/236762042-ec1b2801-3718-4825-8ab5-413c4e82039c.jpg)
 
 ## Key Features
-- # Toxicity Detection: ToxiScan uses the Naive Bayes classifier, trained on a diverse dataset of labeled toxic and non-toxic comments, to predict the presence of toxicity in a given text.
-- # Text Preprocessing: ToxiScan employs NLTK, a powerful natural language processing library, for comprehensive text preprocessing. It performs essential tasks such as tokenization, part-of-speech tagging, lemmatization, and stopword removal to ensure the input text is properly prepared for analysis.
-- # Feature Extraction: TfidfVectorizer is utilized to extract relevant features from the preprocessed text. This vectorization technique transforms text into numerical feature vectors, enabling the Naive Bayes classifier to make predictions.
-- # Accuracy Evaluation: To assess the performance of the classifier, ToxiScan employs metrics such as roc_auc_score and roc_curve, providing insights into the accuracy and efficiency of the toxicity detection model.
+- Toxicity Detection: ToxiScan uses the Naive Bayes classifier, trained on a diverse dataset of labeled toxic and non-toxic comments, to predict the presence of toxicity in a given text.
+- Text Preprocessing: ToxiScan employs NLTK, a powerful natural language processing library, for comprehensive text preprocessing. It performs essential tasks such as tokenization, part-of-speech tagging, lemmatization, and stopword removal to ensure the input text is properly prepared for analysis.
+- Feature Extraction: TfidfVectorizer is utilized to extract relevant features from the preprocessed text. This vectorization technique transforms text into numerical feature vectors, enabling the Naive Bayes classifier to make predictions.
+- Accuracy Evaluation: To assess the performance of the classifier, ToxiScan employs metrics such as roc_auc_score and roc_curve, providing insights into the accuracy and efficiency of the toxicity detection model.
 ## Installation
 To run ToxiScan on your local machine, follow these steps:
 1. Clone the repository:
