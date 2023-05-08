@@ -8,6 +8,8 @@ ToxiScan is an advanced text analysis tool designed to detect toxicity in textua
 - Text Preprocessing: ToxiScan employs NLTK, a powerful natural language processing library, for comprehensive text preprocessing. It performs essential tasks such as tokenization, part-of-speech tagging, lemmatization, and stopword removal to ensure the input text is properly prepared for analysis.
 - Feature Extraction: TfidfVectorizer is utilized to extract relevant features from the preprocessed text. This vectorization technique transforms text into numerical feature vectors, enabling the Naive Bayes classifier to make predictions.
 - Accuracy Evaluation: To assess the performance of the classifier, ToxiScan employs metrics such as roc_auc_score and roc_curve, providing insights into the accuracy and efficiency of the toxicity detection model.
+## Training Data
+The training data used for ToxiScan was obtained from Kaggle, specifically the "Toxic Tweets Dataset" created by ASHWIN U IYER. The dataset consists of a collection of labeled toxic and non-toxic tweets, providing valuable examples for training the Naive Bayes classifier. The use of this dataset ensures the model's ability to recognize patterns and features indicative of toxicity in various text inputs.
 ## Installation
 To run ToxiScan on your local machine, follow these steps:
 1. Clone the repository:
